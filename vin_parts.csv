@@ -1,0 +1,63 @@
+vin,brand,model,year,engine,category,sub_category,part_number,part_name,oem
+WP0AF2A99KS165242,Porsche,911 991.2,2019,3.0T H6,engine,lubrication,9A110722403,Oil Filter,true
+WP0AF2A99KS165242,Porsche,911 991.2,2019,3.0T H6,engine,intake,9A112675301,Air Intake Hose,true
+WP0AF2A99KS165242,Porsche,911 991.2,2019,3.0T H6,engine,fuel_system,9A190808201,High Pressure Fuel Pump,true
+WP0AF2A99KS165242,Porsche,911 991.2,2019,3.0T H6,engine,sensors,9A190601301,Oil Pressure Sensor,true
+WP0AF2A99KS165242,Porsche,911 991.2,2019,3.0T H6,cooling,radiator,9A112106201,Radiator,true
+WP0AF2A99KS165242,Porsche,911 991.2,2019,3.0T H6,cooling,thermostat,9A111506201,Thermostat,true
+WP0AF2A99KS165242,Porsche,911 991.2,2019,3.0T H6,cooling,hoses,9A112107401,Coolant Hose,true
+WP0AF2A99KS165242,Porsche,911 991.2,2019,3.0T H6,brakes_front,pads,99135194801,Front Brake Pads,true
+WP0AF2A99KS165242,Porsche,911 991.2,2019,3.0T H6,brakes_front,discs,99135140501,Front Brake Disc,true
+WP0AF2A99KS165242,Porsche,911 991.2,2019,3.0T H6,brakes_rear,pads,99135293901,Rear Brake Pads,true
+WP0AF2A99KS165242,Porsche,911 991.2,2019,3.0T H6,brakes_rear,discs,99135240501,Rear Brake Disc,true
+WP0AF2A99KS165242,Porsche,911 991.2,2019,3.0T H6,suspension_front,control_arm,99134105303,Front Control Arm,true
+WP0AF2A99KS165242,Porsche,911 991.2,2019,3.0T H6,suspension_front,shock_absorber,99134304134,Front Shock Absorber,true
+WP0AF2A99KS165242,Porsche,911 991.2,2019,3.0T H6,suspension_rear,shock_absorber,99133305120,Rear Shock Absorber,true
+WP0AF2A99KS165242,Porsche,911 991.2,2019,3.0T H6,suspension_rear,hub,99133106501,Rear Wheel Hub,true
+WP0AF2A99KS165242,Porsche,911 991.2,2019,3.0T H6,filters,air,99111013031,Air Filter,true
+WP0AF2A99KS165242,Porsche,911 991.2,2019,3.0T H6,filters,cabin,99157221900,Cabin Filter,true
+WP0AF2A99KS165242,Porsche,911 991.2,2019,3.0T H6,ignition,spark_plug,99917020790,Spark Plug,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,engine,lubrication,04152-YZZA6,Oil Filter,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,engine,intake,17801-0H050,Air Filter,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,engine,fuel_system,23220-0T020,Fuel Pump,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,engine,fuel_system,23209-0T020,Fuel Injector,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,engine,sensors,89467-0E040,Oxygen Sensor,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,engine,sensors,90919-05079,Crankshaft Position Sensor,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,cooling,radiator,16400-0T260,Radiator,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,cooling,thermostat,90916-03100,Thermostat,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,cooling,hoses,16572-0T020,Upper Radiator Hose,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,cooling,hoses,16571-0T020,Lower Radiator Hose,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,brakes_front,pads,04465-33690,Front Brake Pads,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,brakes_front,discs,43512-06400,Front Brake Disc,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,brakes_rear,pads,04466-33220,Rear Brake Pads,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,brakes_rear,discs,42431-06290,Rear Brake Disc,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,suspension_front,control_arm,48068-06430,Front Lower Arm RH,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,suspension_front,control_arm,48069-06430,Front Lower Arm LH,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,suspension_front,shock_absorber,48510-06A60,Front Shock Absorber,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,suspension_rear,shock_absorber,48530-06A90,Rear Shock Absorber,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,suspension_rear,hub,42450-06040,Rear Wheel Hub,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,filters,cabin,87139-0E040,Cabin Filter,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,filters,fuel,23300-0T020,Fuel Filter,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,belts,serpentine,90916-02671,Serpentine Belt,true
+4T1B11HK3KU123456,Toyota,Camry XV70,2019,2.5L A25A-FKS,ignition,spark_plug,90919-01253,Spark Plug,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,engine,lubrication,11427640862,Oil Filter,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,engine,intake,13718601683,Air Filter,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,engine,fuel_system,13518631642,High Pressure Fuel Pump,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,engine,fuel_system,13538616079,Fuel Injector,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,engine,sensors,13628637820,Oxygen Sensor,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,engine,sensors,12141744461,Crankshaft Position Sensor,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,cooling,radiator,17118672104,Radiator,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,cooling,thermostat,11538638015,Thermostat,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,cooling,hoses,17128625450,Coolant Hose,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,brakes_front,pads,34116865660,Front Brake Pads,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,brakes_front,discs,34116886478,Front Brake Disc,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,brakes_rear,pads,34216887568,Rear Brake Pads,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,brakes_rear,discs,34216864052,Rear Brake Disc,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,suspension_front,control_arm,31126852991,Front Control Arm,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,suspension_front,shock_absorber,31316870805,Front Shock Absorber,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,suspension_rear,shock_absorber,33526875663,Rear Shock Absorber,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,suspension_rear,hub,33416853497,Rear Wheel Hub,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,filters,cabin,64119237555,Cabin Filter,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,filters,fuel,16117290873,Fuel Filter,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,belts,serpentine,11288604266,Serpentine Belt,true
+WBAJA7C57JG123456,BMW,5-Series G30,2018,2.0L B48B20A,ignition,spark_plug,12120039634,Spark Plug,true

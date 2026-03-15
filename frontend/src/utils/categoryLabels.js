@@ -1,0 +1,31 @@
+export const CATEGORY_LABELS = {
+  engine: "Двигатель",
+  cooling: "Охлаждение",
+  brakes_front: "Тормоза (передние)",
+  brakes_rear: "Тормоза (задние)",
+  suspension_front: "Подвеска (передняя)",
+  suspension_rear: "Подвеска (задняя)",
+  filters: "Фильтры",
+  ignition: "Зажигание",
+  belts: "Ремни",
+};
+
+export const SUBCATEGORY_LABELS = {
+  lubrication: "Смазка",
+  intake: "Впуск",
+  fuel_system: "Топливная система",
+  sensors: "Датчики",
+  radiator: "Радиатор",
+  thermostat: "Термостат",
+  hoses: "Патрубки",
+  pads: "Тормозные колодки",
+  discs: "Тормозные диски",
+  control_arm: "Рычаг подвески",
+  shock_absorber: "Амортизатор",
+  hub: "Ступица",
+  air: "Воздушный фильтр",
+  cabin: "Салонный фильтр",
+  fuel: "Топливный фильтр",
+  serpentine: "Ремень навесного",
+  spark_plug: "Свеча зажигания",
+};
