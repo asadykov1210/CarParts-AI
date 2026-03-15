@@ -25,6 +25,18 @@ MISTRAL_URL = "https://api.mistral.ai/v1/chat/completions"
 # Инициализация FastAPI-приложения.
 app = FastAPI()
 
+#Middleware для замера времени всех запросов
+import time
+from fastapi import Request
+
+@app.middleware("http")
+async def log_request_time(request: Request, call_next):
+    start = time.time()
+    response = await call_next(request)
+    duration = time.time() - start
+    print(f"Request took {duration:.3f} seconds | {request.url.path}")
+    return response
+
 # Подключаем базу и модели.
 from src.database.db import init_db
 from src.database.models.part import Part
