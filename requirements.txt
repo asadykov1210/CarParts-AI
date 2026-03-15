@@ -1,6 +1,13 @@
 fastapi
-uvicorn
+uvicorn[standard]
 sqlalchemy
 pydantic[email]
 python-dotenv
 requests
+
+python-jose
+passlib[bcrypt]
+
+pytest
+pytest-asyncio
+httpx
