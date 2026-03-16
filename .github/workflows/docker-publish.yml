@@ -1,5 +1,3 @@
-# force update
-
 name: Build and Publish Docker Image
 
 on:
@@ -14,6 +12,11 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+
+    - name: Disable buildx and use classic builder
+      run: |
+        docker buildx rm default || true
+        docker buildx create --use --driver docker-container
 
     - name: Log in to GHCR
       uses: docker/login-action@v3
