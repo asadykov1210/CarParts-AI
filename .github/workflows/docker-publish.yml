@@ -20,8 +20,11 @@ jobs:
         username: ${{ secrets.GHCR_USERNAME }}
         password: ${{ secrets.GHCR_TOKEN }}
 
-    - name: Build Docker image
-      run: docker build -f Dockerfile -t ghcr.io/${{ secrets.GHCR_USERNAME }}/carparts_api:latest .
-
-    - name: Push Docker image
-      run: docker push ghcr.io/${{ secrets.GHCR_USERNAME }}/carparts_api:latest
+    - name: Build and push Docker image
+      uses: docker/build-push-action@v5
+      with:
+        context: .
+        file: ./Dockerfile
+        platforms: linux/amd64
+        push: true
+        tags: ghcr.io/${{ secrets.GHCR_USERNAME }}/carparts_api:latest
