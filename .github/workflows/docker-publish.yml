@@ -22,7 +22,8 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t ghcr.io/${{ secrets.GHCR_USERNAME }}/carparts_api:latest .
+        docker buildx build --platform linux/amd64 -t ghcr.io/${{ secrets.GHCR_USERNAME }}/carparts_api:latest .
+
 
     - name: Push Docker image
       run: |
