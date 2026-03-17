@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  carparts_api:
+    image: ghcr.io/asadykov1210/carparts_api:latest
+    container_name: carparts_api
+    restart: always
+    ports:
+      - "8000:8000"

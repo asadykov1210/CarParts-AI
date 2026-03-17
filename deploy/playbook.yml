@@ -1,0 +1,15 @@
+- hosts: cluster
+  become: yes
+  tasks:
+
+    - name: Log in to GHCR
+      shell: echo "{{ lookup('env','GHCR_TOKEN') }}" | docker login ghcr.io -u "{{ lookup('env','GHCR_USERNAME') }}" --password-stdin
+
+    - name: Pull latest image
+      shell: docker pull ghcr.io/asadykov1210/carparts_api:latest
+
+    - name: Stop old container
+      shell: docker compose -f deploy/docker-compose.yml down
+
+    - name: Start new container
+      shell: docker compose -f deploy/docker-compose.yml up -d
