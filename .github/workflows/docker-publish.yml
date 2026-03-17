@@ -33,6 +33,10 @@ jobs:
   deploy:
     needs: build
     runs-on: self-hosted
+    env:
+      GHCR_USERNAME: ${{ secrets.GHCR_USERNAME }}
+      GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
+      BECOME_PASS: ${{ secrets.BECOME_PASS }}
 
     steps:
       - name: Checkout repository

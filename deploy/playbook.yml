@@ -1,5 +1,9 @@
 - hosts: cluster
   become: yes
+  become_method: sudo
+  become_user: root
+  become_pass: "{{ lookup('env','BECOME_PASS') }}"
+
   tasks:
 
     - name: Log in to GHCR
