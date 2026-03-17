@@ -2,7 +2,9 @@
   become: yes
   become_method: sudo
   become_user: root
-  become_pass: "{{ lookup('env','BECOME_PASS') }}"
+
+  vars:
+    ansible_become_password: "{{ lookup('env','BECOME_PASS') }}"
 
   tasks:
 
