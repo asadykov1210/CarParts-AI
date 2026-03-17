@@ -27,8 +27,5 @@ jobs:
         file: ./Dockerfile
         platforms: linux/amd64
         push: true
-        image: ghcr.io/${{ secrets.GHCR_USERNAME }}/carparts_api
-        tags: ghcr.io/${{ secrets.GHCR_USERNAME }}/carparts_api:latest
-
-
-
+        tags: |
+          ghcr.io/${{ secrets.GHCR_USERNAME }}/carparts_api:latest
